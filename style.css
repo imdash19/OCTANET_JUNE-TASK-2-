@@ -1,0 +1,86 @@
+/* style.css */
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(Background.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    cursor: pointer;
+}
+
+.container {
+    background-image: url(container.png);
+    background-size: cover;
+    background-position: center;
+    width: 35vw;
+    height: 90vh;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+}
+
+form input, form select, form button {
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 18px;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+form ul button {
+    background: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: none;
+    border-bottom: 1px solid #ddd;
+}
+
+li.complete {
+    text-decoration: line-through;
+    color: #888;
+    background-color: white;
+    font-size: 20px;
+}
+
+button.delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
